@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: auto;
+  width: auto;
+}
+
+.left-content {
+  display: inline-flex;
+  align-items: center;
+  float: left;
+}
+
+.left-content a {
+  padding-right: 20px;
+}
+
+.right-content {
+  float: right;
+  text-align: center;
+  align-items: center;
+}
+
+.right-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+  padding-right: 20px;
+  height: auto;
+  line-height: 30px; /* Căn giữa văn bản theo chiều dọc */
+}
+
+.right-content a:hover {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  height: auto;
+}
+
+.right-content ul a {
+  padding-left: 20px;
+}
+
+.right-content ul {
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.nav-bar .nav-link {
+  text-align: center;
+  border-radius: 4px;
+}
+
+.toge img {
+  height: 100%;
+  width: 100%;
+}
+
+.toge p {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.final ul {
+  list-style: none;
+}
+
+.sus {
+  display: flex;
+}
+
+#section-final {
+  padding-left: 50px;
+}
